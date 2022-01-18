@@ -1,0 +1,150 @@
+ <!DOCTYPE html>
+<html>
+<title>Daily Prep</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+    body {font-size: 16px;}
+    img {margin-bottom: -8px;}
+    .w3-bar {
+      padding: 12px;
+    }
+    #textContainer {
+    border-radius: 25px;
+    background-color: #d7dcf5;
+    padding: 16px;
+    }
+    #header {
+    padding: 64px 128px 128px 128px;
+    }
+    @media (max-width: 800px) {
+    #header {
+        padding: 64px 0px 64px 0px;
+        }
+    }
+</style>
+<body class="w3-content" style="max-width:1600px; background-color:#112253">
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+        <a href="home" class="w3-bar-item w3-button "><b>Daily <img  class="w3-image" style="margin: -8px 0px -8px 0px"src="resources/blacktransparentACTDaily.png" width="40" height="40"> Prep</b></a>
+        <!-- Right-sided navbar links -->
+        <div class="w3-right w3-hide-small">
+            <a href="about" class="w3-bar-item w3-button"><b>About</b></a>
+            <a class="w3-bar-item w3-button" href="satdaily"><b>SAT</b></a>
+            <a class="w3-bar-item w3-button" href="actdaily"><b>ACT</b></a>
+            <a href="team.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> <b>Team</b></a>
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</div>
+
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-right w3-hide-medium w3-hide-large" style="display:none;top:0;right:0;" id="mySidebar">
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">×</a>
+      <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button"><b>About</b></a>
+      <a href="satdaily.html" onclick="w3_close()" class="w3-bar-item w3-button"><b>SAT</b></a>
+      <a href="actdaily.html" onclick="w3_close()" class="w3-bar-item w3-button"><b>ACT</b></a>
+      <a href="team.html" onclick="w3_close()" class="w3-bar-item w3-button"><b>Team</b></a>
+  </nav>
+<!--
+  <header class="w3-display-container w3-center" id="header">
+      <div class="mySlides w3-animate-opacity">
+          <img class="w3-image w3-padding-32" src="resources/satappimage.jpg" alt="SAT Daily Logo" style="min-width:200px; border-radius: 25%;" width="300" height="250">
+      </div>
+
+      <div class="w3-container w3-text-white w3-center">
+          <div class="w3-container w3-center" id="textContainer">
+              <h1 class="w3-jumbo w3-text-black"><b>SAT Daily!</b></h1>
+              <h3 class="w3-text-black"></h3>
+              <div >
+              <a href="https://satdailyapp.com/ios" target="_blank"><img class="w3-image w3-padding-16" src="resources/appstoredownload.png" width="160" height="55" alt="Download on the App Store"></a>
+              <a href="https://satdailyapp.com/android" target="_blank"><img class="w3-image w3-padding-16" src="resources/googleplaydownload.png" width="160" height="55" alt="Get it on Google Play"></a>
+
+              </div>
+          </div>
+      </div>
+  </header>
+  -->
+
+  <header class="w3-display-container w3-center" id="header">
+      <div class="w3-container w3-center" id="headercontainer">
+          <div class="w3-container">
+              <img class="w3-image w3-padding-32" src="resources/satdailylogo.png" alt="App" style="min-width:200px;border-radius:25%;" width="250" height="200">
+          </div>
+          <div class="w3-row-padding" style="margin-top:64px">
+              <h1 class="w3-center w3-xxxlarge w3-text-white w3-col l4" style="margin-top: 32px;"><b>SAT Daily |</b></h1>
+
+              <h4 class="w3-text-white w3-col l8" style="margin-top: 0px"> <hr class="w3-white">
+                  With thorough explanations of each question and fun interfaces, SAT Daily will help you
+                  build your skills in all three sections. Our users have attributed SAT daily to an average
+                  80 point score increase. Use the app anywhere and anytime you want. Use it when waiting for
+                  your bus or use it when waiting in line. This way you can always prepare for the SAT exam since
+                  everything you need is at your fingertips.
+                  <hr class="w3-white">
+                  </h4>
+              <div >
+                  <a href="https://satdailyapp.com/ios" target="_blank"><img class="w3-image w3-padding-16" src="resources/appstoredownload.png" width="200" height="95" alt="Download on the App Store"></a>
+                  <a href="https://satdailyapp.com/android" target="_blank"><img class="w3-image w3-padding-16" src="resources/googleplaydownload.png" width="200" height="95" alt="Get it on Google Play"></a>
+
+              </div>
+
+          </div>
+      </div>
+
+  </header>
+
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-center w3-xlarge" style="background-color: #a0b3de">
+      <div class="w3-section">
+          <a style="text-decoration:none" href="https://www.instagram.com/satdailyapp/" target="_blank">
+              <i class="fa fa-instagram w3-hover-opacity"></i>
+          </a>
+
+          <a style="padding-left: 8px;text-decoration:none" href="https://www.linkedin.com/company/sat-daily/" target="_blank">
+              <i class="fa fa-linkedin w3-hover-opacity"></i>
+          </a>
+          <br>
+          <a style="padding-left: 8px;text-decoration:none"href="https://schoolhouse.world" target="_blank"><small><b>Schoolhouse World</b></small></a>
+          <br>
+          <a style="padding-left: 8px;text-decoration:none"href="https://discord.gg/4tqjTzztWC" target="_blank"><small><b>SAT Daily Discord</b></small></a>
+          <br>
+          <a style="padding-left: 8px;text-decoration:none"href="https://discord.gg/uTFxSH7mdR" target="_blank"><small><b>ACT Daily Discord</b></small></a>
+
+      </div>
+      <div>
+          <small>For business inquiries: pranavbhuv@gmail.com </small>
+      </div>
+  </footer>
+
+  <script>
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+ </html>

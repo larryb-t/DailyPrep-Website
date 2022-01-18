@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<title>Daily Prep</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Daily Prep is dedicated to streamlining the studying process
+ and making it less painful to achieve your dream score. These are the number one tools
+ you need to achieve the score you want on your SAT or ACT exam. With word of the day and daily questions,
+ you are compounding the knowledge learned in a short period of time every day. The questions are based on
+  real SAT and ACT questions and tested skills; a thorough explanation of each question, it will allow for
+  mastery of SAT concepts. Practice math, reading, and writing concepts every day at any time.">
+<meta name="keywords" content="SAT, ACT, study, app, Daily Prep, SAT Daily, ACT Daily">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+    body {font-size: 16px;}
+    img {margin-bottom: -16px;}
+
+    .theApp {
+      padding: 64px 128px 32px 128px;
+      background-color:#112253;
+    }
+
+    #features {
+      background-color: #d7dcf5;
+      border-radius: 25px;
+      min-width: 500px;
+    }
+
+    #review {
+      min-width: 500px;
+
+    }
+
+    .w3-bar {
+      padding: 12px;
+    }
+
+    #header {
+      margin: 128px;
+      min-width: 35%;
+    }
+
+    #satimage {
+      border-radius: 25%;
+    }
+
+    #actimage {
+      border-radius: 25%;
+    }
+
+    #actapp {
+      //background-color: white;
+      border-radius: 25px;
+      margin: 48px 0px 0px -60px;
+      padding: 16px 8px 28px 8px;
+      max-width: 350px;
+      min-width:200px;
+      box-shadow: 5px 5px 5px;
+    }
+
+    #satapp {
+    //background-color: white;
+    border-radius: 25px;
+    margin: 48px 0px 0px -60px;
+    padding: 16px 8px 28px 8px;
+    max-width: 350px;
+    min-width:200px;
+    box-shadow: 5px 5px 5px;
+    }
+
+    .download {
+      margin: 0px 256px 0px 256px;
+    }
+
+    .featuresicon {
+    font-size: 28px;
+    color: white;
+    }
+
+}
+</style>
+<body class="w3-content" style="max-width:1600px; background-color:#112253">
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+        <a href="home" class="w3-bar-item w3-button "><b>Daily <img  class="w3-image" style="margin: -8px 0px -8px 0px"src="resources/blacktransparentACTDaily.png" width="40" height="40"> Prep</b></a>
+        <!-- Right-sided navbar links -->
+        <div class="w3-right w3-hide-small">
+            <a href="about" class="w3-bar-item w3-button"><b>About</b></a>
+            <a class="w3-bar-item w3-button" href="satdaily"><b>SAT</b></a>
+            <a class="w3-bar-item w3-button" href="actdaily"><b>ACT</b></a>
+            <a href="team.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> <b>Team</b></a>
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-right w3-hide-medium w3-hide-large" style="display:none;top:0;right:0;" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">×</a>
+    <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button"><b>About</b></a>
+    <a href="satdaily.html" onclick="w3_close()" class="w3-bar-item w3-button"><b>SAT</b></a>
+    <a href="actdaily.html" onclick="w3_close()" class="w3-bar-item w3-button"><b>ACT</b></a>
+    <a href="team.html" onclick="w3_close()" class="w3-bar-item w3-button"><b>Team</b></a>
+</nav>
+
+<h1 class="w3-center w3-text-white w3-jumbo" style="margin-top:128px"><b>Daily <img class="w3-image w3-padding" style="margin-bottom: 8px;" src="resources/whitetransparentACTDaily.png" width="100" height="100"> Prep</b></h1>
+<h1 class="w3-center w3-text-white" style="margin-top:32px"><b>Get Your Dream Score Now.</b></h1>
+
+
+<!-- Header  -->
+<header class="w3-display-container w3-center " style="margin-top: 54px;margin-bottom: 64px"id="header">
+    <div class="w3-image ">
+        <img class="w3-image " src="resources/SATDailyHome.png" alt="Image 1" width="303" height="241">
+        <img class="w3-image w3-hide-medium " style="margin-right: 8px;"src="resources/SATDailyWriting.png" alt="Image 1" width="267" height="205">
+        <img class="w3-image w3-hide-small "  style="margin-left: 24px;"src="resources/SATDailyExplanation.png" alt="Image 1" width="272" height="210">
+    </div>
+</header>
+
+<h1 class="w3-center w3-text-white"><b>Make Studying Less Painful.</b></h1>
+<h1 class="w3-center w3-text-white"><b>Be Engaged Everyday.</b></h1>
+
+
+<!-- Download -->
+<div class="download">
+    <div class="w3-padding-64">
+        <div class="w3-row-padding">
+            <div class="w3-left " >
+                <img class="w3-image" src="resources/satdailylogo.png" alt="App" width="235" height="371" id="satimage">
+                <div class="w3-container w3-center" id="satapp">
+                    <h1 class="w3-xxxlarge w3-padding w3-text-white" ><b>SAT</b></h1>
+                    <a style="text-decoration:none;" href="satdaily" class="w3-text-white">Learn more about SAT Daily!</a>
+                    <a href="https://satdailyapp.com/ios" target="_blank"><img class="w3-image w3-padding-16" src="resources/appstoredownload.png" width="160" height="55" alt="Download on the App Store"></a>
+                    <a href="https://satdailyapp.com/android" target="_blank"><img class="w3-image w3-padding-16" src="resources/googleplaydownload.png" width="160" height="55" alt="Get it on Google Play"></a>
+
+                </div>
+            </div>
+
+            <div class="w3-right ">
+                <img class="w3-image " src="resources/ACTDAIly_logo.png" alt="App" width="235" height="371" id="actimage">
+                <div class="w3-container w3-center" id="actapp">
+                    <h1 class="w3-xxxlarge w3-padding w3-text-white" ><b>ACT</b></h1>
+                    <a style="text-decoration:none"href="actdaily" class="w3-text-white">Learn more about ACT Daily!</a>
+                    <a href="https://satdailyapp.com/ios" target="_blank"><img class="w3-image w3-padding-16" src="resources/appstoredownload.png" width="160" height="55" alt="Download on the App Store"></a>
+                    <a href="https://satdailyapp.com/android" target="_blank"><img class="w3-image w3-padding-16" src="resources/googleplaydownload.png" width="160" height="55" alt="Get it on Google Play"></a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<!--Old Features Section
+<div class="w3-container w3-padding-64 w3-center w3-margin" id="features">
+    <h1 class="w3-jumbo"><b>Features</b></h1>
+
+    <div class="w3-row" style="margin-top:64px">
+        <div class="w3-col s4">
+            <h3>Daily Questions</h3>
+        </div>
+        <div class="w3-col s4">
+            <h3>Word of the day</h3>
+        </div>
+        <div class="w3-col s4">
+            <h3>Ad-free</h3>
+        </div>
+    </div>
+
+    <div class="w3-row" style="margin-top: 64px">
+        <div class="w3-col s4">
+            <h3>Timed tests</h3>
+        </div>
+        <div class="w3-col s4">
+            <h3>Thorough explanations</h3>
+        </div>
+        <div class="w3-col s4">
+            <h3>Score prediction</h3>
+        </div>
+    </div>
+
+</div>
+-->
+<!-- Features Section -->
+<div class="w3-padding-64">
+    <div class="w3-row-padding">
+        <div class="w3-col l7 m6">
+            <img class="w3-image " style="margin: 64px 0px 0px 128px"src="resources/SATDailyProfile.png" alt="App" width="250" height="381">
+            <img class="w3-image w3-hide-medium w3-hide-small" style="margin: 64px 0px 0px 32px"src="resources/SATDailyHome.png" alt="App" width="285" height="416">
+
+        </div>
+        <div class="w3-col l5 m6">
+            <h1 class="w3-jumbo w3-text-white"><b>Features</b></h1>
+            <p class="featuresicon"><i class="fa fa-check featuresicon"></i> 3 Daily Questions</p>
+            <p class="featuresicon"><i class="fa fa-check featuresicon"></i> Word of the Day</p>
+            <p class="featuresicon"><i class="fa fa-check featuresicon"></i> Ad-free</p>
+            <p class="featuresicon"><i class="fa fa-check featuresicon"></i> Practice Exams</p>
+            <p class="featuresicon"><i class="fa fa-check featuresicon"></i> In-Depth Explanations</p>
+            <p class="featuresicon"><i class="fa fa-check featuresicon"></i> Score Prediction</p>
+
+        </div>
+    </div>
+</div>
+
+<!-- Friendly Design -->
+<div class="theApp">
+    <div class="w3-row-padding w3-text-white">
+        <div class="w3-col l7 m6">
+            <h1 class="w3-xxxlarge" style="margin: 136px 0px 0px 64px"><b>User Friendly Design.</b></h1>
+        </div>
+
+        <div class="w3-col l5 m6">
+            <img class="w3-image " style="margin-left: 32px;"src="resources/SATDailyMath.png" alt="App" width="250" height="381">
+        </div>
+    </div>
+</div>
+
+<h1 class="w3-center w3-text-white" style="margin-top: 64px; margin-bottom: 64px"><b>With Over 10,000 Downloads.</b></h1>
+
+
+<!-- review -->
+<div class="w3-container w3-padding-64 w3-center "  id="review">
+    <h1 class="w3-jumbo w3-text-white "><b>Reviews</b></h1>
+    <div class="w3-row-padding"><br>
+        <div class="w3-col l4 s4 ">
+            <h2 class="w3-text-white" >"A Game-changer for the SAT"</h2>
+            <hr class="w3-white">
+            <h3 class="w3-text-white w3-hide-small" >"This app is seriously a game changer. Thanks to this app I got the
+                score I want and hence am going to the university I want. I cannot stress this enough but
+                this app is extremely helpful. I used this app in my free time when I was using the restroom,
+                waiting for the bus, or any small time frame. And these incremental study sessions help a lot.
+                This app is a must for any person preparing for the SAT."</h3>
+            <h3 class="w3-text-white">- App Store</h3>
+        </div>
+
+
+        <div class="w3-col l4 s4">
+            <h2 class="w3-text-white" >"This app deserves 5 stars!"</h2>
+            <hr class="w3-white">
+            <h3 class="w3-text-white w3-hide-small" >"This app works great, it indeed completes its purpose. Working on SAT
+                Questions every day will positively impact on your score and logic in doing SAT Math, Reading
+                and Writing."</h3>
+            <h3 class="w3-text-white">- Google Play Store</h3>
+        </div>
+
+        <div class="w3-col l4 s4">
+            <h2 class="w3-text-white" >"Best SAT Prep App"</h2>
+            <hr class="w3-white">
+            <h3 class="w3-text-white w3-hide-small" >"This app is very helpful for my SAT prep. I started off with a score
+                of around 1200 and after using this app in parallel with other resources my SAT score went up
+                to around 1450. This app is seriously a game a changer. I never thought simply answering a few
+                questions a day could have such a monumental impact on my score. Honestly recommend this app for
+                anyone trying to prepare for the SAT."</h3>
+            <h3 class="w3-text-white">- App Store</h3>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-center w3-xlarge" style="background-color: #a0b3de">
+    <div class="w3-section">
+        <a style="text-decoration:none" href="https://www.instagram.com/satdailyapp/" target="_blank">
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+        </a>
+
+        <a style="padding-left: 8px;text-decoration:none" href="https://www.linkedin.com/company/sat-daily/" target="_blank">
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </a>
+        <br>
+        <a style="padding-left: 8px;text-decoration:none"href="https://schoolhouse.world" target="_blank"><small><b>Schoolhouse World</b></small></a>
+        <br>
+        <a style="padding-left: 8px;text-decoration:none"href="https://discord.gg/4tqjTzztWC" target="_blank"><small><b>SAT Daily Discord</b></small></a>
+        <br>
+        <a style="padding-left: 8px;text-decoration:none"href="https://discord.gg/uTFxSH7mdR" target="_blank"><small><b>ACT Daily Discord</b></small></a>
+
+    </div>
+    <div>
+        <small>For business inquiries: pranavbhuv@gmail.com </small>
+    </div>
+</footer>
+
+<script>
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
